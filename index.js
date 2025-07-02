@@ -15,10 +15,9 @@ app.use(
   })
 );
 
-mongoose.connect(MONGO, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(process.env.MONGOURL)
+  .then(() => console.log("MongoDB connected"))
+  .catch((err) => console.error("Connection error:", err));
 
 const userSchema = new mongoose.Schema({
   username: String,
