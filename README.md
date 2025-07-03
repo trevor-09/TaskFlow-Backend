@@ -1,31 +1,28 @@
-# ⚙️ TaskFlow Backend
+# 🌐 TaskFlow Frontend
 
-This is the **Node.js + Express backend** for TaskFlow — a full-stack task management application.
+This is the **React frontend** for TaskFlow — a clean, modern task management web app.
 
-> 🔗 **Live API**: [https://todobackend-kqc1.onrender.com](https://todobackend-kqc1.onrender.com)
+> 🔗 Live site: [https://todofrontend-9d0i.onrender.com](https://todofrontend-9d0i.onrender.com)
 
 ---
 
 ## ✨ Features
 
-- 🔐 JWT-based user authentication (signup/login)
-- 📝 Create, read, update, and delete tasks
+- 🔐 Login and signup with JWT
+- 📝 Add, delete, and update tasks
 - ✅ Mark tasks as complete or pending
-- 🎯 Assign priority levels (low, medium, high)
-- 🕓 Automatically store creation timestamps
-- 🌍 CORS-enabled API for frontend access
+- 🎯 Filter by status and priority
+- 🕓 View created timestamp
+- 💅 Tailwind CSS-powered responsive UI
 
 ---
 
 ## 🧱 Built With
 
-- **Node.js**
-- **Express.js**
-- **MongoDB Atlas**
-- **Mongoose**
-- **bcryptjs** (for password hashing)
-- **jsonwebtoken** (for token-based auth)
-- **dotenv** (for environment config)
+- **React**
+- **React Router**
+- **Tailwind CSS**
+- **Fetch API** (to communicate with backend)
 
 ---
 
@@ -34,8 +31,8 @@ This is the **Node.js + Express backend** for TaskFlow — a full-stack task man
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/trevor-09/ToDoBackend.git
-cd ToDoBackend
+git clone https://github.com/trevor-09/TaskFlow-Frontend.git
+cd TaskFlow-Frontend
 ```
 
 ### 2. Install Dependencies
@@ -44,55 +41,43 @@ cd ToDoBackend
 npm install
 ```
 
-### 3. Create Environment File
-
-Create a `.env` file in the root folder and add:
-
-```env
-MONGOURL=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-```
-
-### 4. Run the Server
+### 3. Start the Application
 
 ```bash
-node index.js
+npm start
 ```
 
-Server will run at: `http://localhost:8080`
+Runs at: `http://localhost:3000`
+
+> ⚠️ Ensure the backend server is also running and accessible at:
+> [https://todobackend-kqc1.onrender.com](https://todobackend-kqc1.onrender.com)
 
 ---
 
-## 📌 API Endpoints
+## 🔗 Backend API
 
-| Method | Route                | Description                  |
-|--------|----------------------|------------------------------|
-| POST   | /register            | Register a new user          |
-| POST   | /login               | Log in and receive JWT token |
-| GET    | /tasks               | Get all tasks for the user   |
-| POST   | /tasks               | Add a new task               |
-| DELETE | /tasks/:id           | Delete a task by ID          |
-| PATCH  | /tasks/:id/status    | Toggle task status           |
-| PATCH  | /tasks/:id/priority  | Update task priority         |
+This frontend connects to the backend hosted at:
 
-> All `/tasks` routes require an `Authorization: Bearer <token>` header.
+```
+https://todobackend-kqc1.onrender.com
+```
 
 ---
 
-## 🔗 Frontend Integration
+## 👤 Author
 
-This backend connects to the frontend hosted at:
-
-- 🗂️ **Frontend Repository**: [ToDoFrontend](https://github.com/trevor-09/ToDoFrontend)  
-- 🌐 **Live Frontend**: [https://todofrontend-9d0i.onrender.com](https://todofrontend-9d0i.onrender.com)
+**Abhay Raj**  
+🎓 B.Tech Computer Science  
+🔗 [LinkedIn](https://linkedin.com/in/your-profile)  
+📧 [abhayraj@example.com](mailto:abhayraj@example.com)
 
 ---
 
 ## 🪄 License
 
 This project is open for educational and personal portfolio use.  
-Feel free to fork, modify, and build upon it.
+Feel free to fork and modify it.
 
 ---
 
-> Made by Abhay Raj
+> Made with 💙 using React + Tailwind CSS
