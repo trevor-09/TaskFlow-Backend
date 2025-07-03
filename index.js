@@ -25,12 +25,16 @@ const userSchema = new mongoose.Schema({
 });
 const User = mongoose.model("User", userSchema);
 
-const taskSchema = new mongoose.Schema({
-  text: String,
-  status: String,
-  priority: String,
-  userId: mongoose.Schema.Types.ObjectId,
-});
+const taskSchema = new mongoose.Schema(
+  {
+    text: String,
+    status: String,
+    priority: String,
+    userId: mongoose.Schema.Types.ObjectId,
+  },
+  { timestamps: true } 
+);
+
 const Task = mongoose.model("Task", taskSchema);
 
 app.post("/register", async (req, res) => {
