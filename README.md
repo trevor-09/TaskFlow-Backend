@@ -83,7 +83,7 @@ Server will run at: `http://localhost:8080`
 
 This backend connects to the frontend hosted at:
 
-- 🗂️ **Frontend Repository**: [ToDoFrontend](https://github.com/trevor-09/ToDoFrontend)  
+- 🗂️ **Frontend Repository**: [ToDoFrontend](https://github.com/trevor-09/TaskFlow-Frontend)  
 - 🌐 **Live Frontend**: [https://todofrontend-9d0i.onrender.com](https://todofrontend-9d0i.onrender.com)
 
 ---
