@@ -83,17 +83,8 @@ Server will run at: `http://localhost:8080`
 
 This backend connects to the frontend hosted at:
 
-- 🗂️ **Frontend Repository**: [ToDoFrontend](https://github.com/trevor-09/TaskFlow-Frontend)  
+- 🗂️ **Frontend Repository**: [TaskFlowFrontend](https://github.com/trevor-09/TaskFlow-Frontend)  
 - 🌐 **Live Frontend**: [https://todofrontend-9d0i.onrender.com](https://todofrontend-9d0i.onrender.com)
-
----
-
-## 👤 Author
-
-**Abhay Raj**  
-🎓 B.Tech Computer Science  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)  
-📧 [abhayraj@example.com](mailto:abhayraj@example.com)
 
 ---
 
@@ -104,4 +95,4 @@ Feel free to fork, modify, and build upon it.
 
 ---
 
-> Made with ⚙️ Node.js + ❤️ by Abhay Raj
+> Made by Abhay Raj
