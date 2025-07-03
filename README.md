@@ -91,7 +91,6 @@ This backend connects to the frontend hosted at:
 ## 🪄 License
 
 This project is open for educational and personal portfolio use.  
-Feel free to fork, modify, and build upon it.
 
 ---
 
